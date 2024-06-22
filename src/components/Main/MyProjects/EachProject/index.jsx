@@ -1,6 +1,6 @@
 import styles from "./EachProject.module.css";
 import PropTypes from 'prop-types';
-import {ButtonsArea} from '../../ButtonsArea'
+import {ButtonsArea} from '../../../ButtonsArea'
 
 export const EachProject = ({ image, description, name, deployLink, repoLink }) => {
   return (

@@ -1,5 +1,5 @@
 import styles from './Swiper.module.css';
-import projects from '../../../mocks/my-projects.json';
+import projects from '../../../../mocks/my-projects.json';
 import { EachProject } from '../../MyProjects/EachProject';
 import { Swiper,  SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
