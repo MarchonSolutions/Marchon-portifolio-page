@@ -35,7 +35,7 @@
     "id": 5,
     "name": "E-commerce Meteora",
     "description": "Este é um projeto feito no curso de Context-Api da Alura, uma loja virtual de roupas com carrinho de compras e gerenciamento de pedidos.",
-    "image": "public/images/logo-projects/meteora-logo.png",
+    "image": "/images/logo-projects/meteora-logo.png",
     "deploy": "https://meteora-lovat-sigma.vercel.app/",
     "repositorio": "https://github.com/MarchonSolutions/meteora"
     
