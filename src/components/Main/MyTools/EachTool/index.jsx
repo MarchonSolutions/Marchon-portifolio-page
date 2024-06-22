@@ -5,24 +5,16 @@ import { useState } from "react";
 
 export const EachTool = ({ tool }) => {
   const [openedTool, setOpenedTool] = useState(false);
-  const [animation] = useState('slide-in-top');
-
-  const toggleTool = () => {
-    if (openedTool) {
-      setOpenedTool(false);
-    } else {
-      setOpenedTool(true);
-    }
-  };
-
+  const [animation] = useState("slide-in-top");
+  
   return (
-    <li className={styles.tool__item} onClick={toggleTool}>
+    <li className={styles.tool__item} onClick={() => setOpenedTool(!openedTool)}>
       <div className={styles.tool__name}>
         {tool.name}
         {openedTool ? (
-          <IoIosArrowUp className={styles.arrow}/>
+          <IoIosArrowUp className={styles.arrow} />
         ) : (
-          <IoIosArrowDown className={styles.arrow}/>
+          <IoIosArrowDown className={styles.arrow} />
         )}
       </div>
       {openedTool && (
