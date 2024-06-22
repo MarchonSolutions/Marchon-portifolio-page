@@ -1,0 +1,24 @@
+.myProjects {
+  width: 100%;
+  height: 90%;
+  color: #ffff;
+
+  .project__img {
+    width: 100%;
+    height: 50%;
+    border-radius: .5rem;
+  }
+  
+  .description {
+    padding: .6rem;
+
+    h3 {
+        margin-bottom: .5rem;
+    }
+
+    p {
+        text-indent: .3rem;
+        margin-bottom: 1rem;
+    }
+  }
+}

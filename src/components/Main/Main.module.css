@@ -1,0 +1,19 @@
+.hardSkills, .myProjects {
+    background-color: #1c1c22;
+    
+    .text__hardSkills, .text__myProjects {
+        font-size: 1.8em;
+        padding: 1rem;
+        color: #fff;
+    }
+
+    hr {
+        margin-left: .75rem;
+        width: 75%;
+    }
+}
+
+.myProjects {
+    background-color: #000;
+}
+

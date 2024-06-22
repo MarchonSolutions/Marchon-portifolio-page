@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "description": "Forte conhecimento sobre HTML com sólida experiência prática. Crio páginas web estruturadas e semanticamente corretas, utilizando tags, atributos e formulários de forma eficiente."
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "description": "Com sólidos conhecimentos em CSS, consigo transformar designs complexos em interfaces web responsivas e atraentes"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "description": "Tenho profunda experiência em manipulação do DOM, controle de variáveis, escopos e closures. Utilizo orientação a objetos e classes para estruturar e organizar o código de forma eficiente."
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "description": "Domino conceitos essenciais de React, como hooks, state management e componentização, além de estar familiarizado com bibliotecas complementares como Redux e React Router.Estou sempre focando na experiência do usuário e na performance."
+  },
+  {
+    "id": 5,
+    "name": "TypeScript",
+    "description": "Atualmente, estou imerso no estudo do TypeScript. Estou aprendendo a escrever códigos mais seguros e escaláveis, aproveitando os tipos estáticos para evitar erros comuns durante o desenvolvimento.  "
+  },
+  {
+    "id": 6,
+    "name": "Node",
+    "description": "Com Node, sou capaz de configurar ambientes de desenvolvimento usando o Npm, gerenciar dependências e automatizar tarefas com scripts personalizados."
+  },
+  {
+    "id": 7,
+    "name": "Git",
+    "description": " Consigo criar repositórios, adicionar e confirmar alterações, além de gerenciar branches para trabalhar em diferentes funcionalidades simultaneamente."
+  }
+]

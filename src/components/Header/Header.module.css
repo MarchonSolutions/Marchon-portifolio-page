@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  background-color: #161513;
+
+  .div__Navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+
+    .logo__Navigation {
+        font-size: 1.5em;
+    }  
+  }
+}

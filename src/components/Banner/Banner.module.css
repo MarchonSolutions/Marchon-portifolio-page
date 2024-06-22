@@ -1,0 +1,17 @@
+.banner {
+    margin: -50px 0;
+    width: 100%;
+
+    img {
+        width: 100%;        
+        transform: scale(.5);
+    }
+
+    .presentation {
+        font-size: 1.9em;
+        margin: -50px 0 50px 0;
+        padding: 12px;
+        color: #fff;
+        text-align: center;
+    }
+}
