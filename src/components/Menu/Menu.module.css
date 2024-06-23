@@ -1,0 +1,33 @@
+.main__divMenu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #bebebe;
+  .divMenu {
+    li {
+      font-size: 1.2em;
+
+      list-style: none;
+      margin: 1rem 0 1rem 1rem;
+      cursor: pointer;
+
+      a {
+        font-size: 1em;
+        text-decoration: none;
+        color: #bebebe;
+      }
+    }
+  }
+
+  .socialMedia {
+    display: flex;
+    align-items: end;
+    li {
+        list-style: none;
+        color: #bebebe;
+        margin-bottom: 1rem; 
+        padding-right: .5rem;
+        cursor: pointer;
+    }
+  }
+}
+

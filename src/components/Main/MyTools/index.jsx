@@ -4,7 +4,7 @@ import { EachTool } from "./EachTool";
 
 export const MyTools = () => {
   return (
-    <section className={styles.hardSkills}>
+    <section className={styles.hardSkills} id="tools">
       <h2 className={styles.text__hardSkills}>
         Adotando <span className="text-gradient">soluções criativas</span>{" "}
         usando as ferramentas...
