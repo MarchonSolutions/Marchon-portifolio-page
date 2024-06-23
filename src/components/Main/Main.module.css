@@ -1,3 +1,7 @@
+.main {
+  background-color: #161513;
+}
+
 .hardSkills,
 .myProjects {
   .text__hardSkills,
@@ -15,6 +19,8 @@
 
 .hardSkills {
   background-color: #1c1c22;
+  border-radius: 0 4rem 0 4rem;
+  padding-bottom: 3rem;
 }
 
 .myProjects {

@@ -19,13 +19,19 @@ export const Menu = () => {
       </menu>
       <ul className={styles.socialMedia}>
         <li>
-          <FaLinkedin />
+          <a href="https://www.linkedin.com/in/matheus-marchon-2363941a1/" target="blank">
+            <FaLinkedin />
+          </a>
         </li>
         <li>
-          <FaGithub />
+          <a href="https://github.com/Marchon1702" target="blank">
+            <FaGithub />
+          </a>
         </li>
         <li>
-          <FaInstagram />
+          <a href="https://www.instagram.com/mt.marchon/" target="blank">
+            <FaInstagram />
+          </a>
         </li>
       </ul>
     </div>
