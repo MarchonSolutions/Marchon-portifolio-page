@@ -1,0 +1,10 @@
+.footer {
+    padding-top: 1rem;
+    color: #fff;
+    background-color: #161513;
+
+    h3 {
+        text-align: center;
+        font-size: 1rem;
+    }
+}

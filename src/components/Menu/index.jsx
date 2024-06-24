@@ -5,6 +5,7 @@ export const Menu = () => {
   const linksMenu = [
     { name: "Tecnologias", link: "#tools" },
     { name: "Projetos", link: "#projects" },
+    {name: "Projeções", link: "#about__me"},
     { name: "Créditos", link: "#creditos" },
   ];
 

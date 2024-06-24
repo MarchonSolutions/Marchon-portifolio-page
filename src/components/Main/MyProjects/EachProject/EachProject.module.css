@@ -1,4 +1,6 @@
 .myProjects {
+  display: block;
+  margin: auto;
   width: 100%;
   height: 90%;
   color: #ffff;

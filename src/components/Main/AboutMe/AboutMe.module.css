@@ -1,0 +1,26 @@
+.aboutMe {
+  background-color: #1c1c22;
+  color: #fff;
+  border-radius: 0 4rem 0 4rem;
+  padding: 2rem;
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+  .presentation {
+    padding: 0.5rem;
+
+    img {
+        display: block;
+        margin: auto;
+        border-radius: 50vw;
+        max-height: 11rem;
+      }
+
+    p {
+      text-indent: 0.6rem;
+      margin: 0.5rem 0;
+    }
+  }
+}
