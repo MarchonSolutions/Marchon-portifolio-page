@@ -5,7 +5,7 @@ import { Menu } from "../Menu";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="footer">
       <div className={styles.contact}>
         <h2>Contatos</h2>
         <ul className={styles.contact__list}>
@@ -17,13 +17,13 @@ export const Footer = () => {
           </li>
           <li>
             <button className={`${styles.wpp__chat} button-gradient`}>
-              <a href="">WathsApp Chat</a>
+              <a href="https://contate.me/matheus-marchon" target="blank">WathsApp Chat</a>
             </button>
           </li>
         </ul>
       </div>
       <Menu />
-      <h3> © All rights reserved to Matheus Marchon</h3>
+      <h3> © All rights reserved by Matheus Marchon</h3>
     </footer>
   );
 };

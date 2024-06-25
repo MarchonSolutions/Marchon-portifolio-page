@@ -13,7 +13,7 @@ export const Header = () => {
   }
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id="home">
       <nav className={styles.div__navigation}>
         <div className={styles.div__topHeader}>
           <h1 className={`${styles.logo__name} text-gradient`}>
