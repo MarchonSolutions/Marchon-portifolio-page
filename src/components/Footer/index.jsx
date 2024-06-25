@@ -17,7 +17,7 @@ export const Footer = () => {
           </li>
           <li>
             <button className={`${styles.wpp__chat} button-gradient`}>
-              <a href="https://contate.me/matheus-marchon" target="blank">WathsApp Chat</a>
+              <a href="https://contate.me/matheus-marchon" target="blank">WhatsApp Chat</a>
             </button>
           </li>
         </ul>
