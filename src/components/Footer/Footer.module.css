@@ -1,10 +1,32 @@
 .footer {
-    padding-top: 1rem;
-    color: #fff;
-    background-color: #161513;
+  padding: 1rem;
+  color: #bebebe;
+  background-color: #161513;
 
-    h3 {
-        text-align: center;
-        font-size: 1rem;
+  .contact__list {
+    li {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: .5rem;
+      margin: .5rem 0;
     }
+
+    .wpp__chat {
+        padding: .5rem 1.5rem;
+        border-radius: 1.5rem;
+        font-size: 1em;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+  }
+
+  h3 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1em;
+  }
 }

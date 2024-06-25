@@ -1,10 +1,29 @@
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css";
+import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { Menu } from "../Menu";
 
 export const Footer = () => {
-    return (
-        <footer className={styles.footer}>
-            <h3> © All rights reserved to Matheus Marchon</h3>
-        </footer>
-    )
-}
-
+  return (
+    <footer className={styles.footer}>
+      <div className={styles.contact}>
+        <h2>Contatos</h2>
+        <ul className={styles.contact__list}>
+          <li>
+            <MdEmail /> matheus.s.marchon@hotmail.com
+          </li>
+          <li>
+            <FaPhoneAlt /> 21-96650-2119
+          </li>
+          <li>
+            <button className={`${styles.wpp__chat} button-gradient`}>
+              <a href="">WathsApp Chat</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <Menu />
+      <h3> © All rights reserved to Matheus Marchon</h3>
+    </footer>
+  );
+};
