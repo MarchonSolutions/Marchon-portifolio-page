@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <Header className="limitWidth"/>
+      <Main className="limitWidth"/>
+      <Footer className="limitWidth"/>
     </>
   )
 }

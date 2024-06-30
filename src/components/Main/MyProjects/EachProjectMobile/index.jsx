@@ -1,10 +1,10 @@
-import styles from "./EachProject.module.css";
+import styles from "./EachProjectMobile.module.css";
 import PropTypes from 'prop-types';
 import {ButtonsArea} from '../../../ButtonsArea'
 
-export const EachProject = ({ image, description, name, deployLink, repoLink }) => {
+export const EachProjectMobile = ({ image, description, name, deployLink, repoLink }) => {
   return (
-    <section className={styles.myProjects}>
+    <div className={styles.myProjects}>
       <img src={image} alt="Imagem da pagina do projeto" className={styles.project__img} />
       <div className={styles.description}>
         <h3>{name}</h3>
@@ -16,11 +16,11 @@ export const EachProject = ({ image, description, name, deployLink, repoLink }) 
           href2={repoLink}
         />
       </div>
-    </section>
+    </div>
   );
 };
 
-EachProject.propTypes = {
+EachProjectMobile.propTypes = {
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,

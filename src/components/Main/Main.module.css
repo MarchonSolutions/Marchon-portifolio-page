@@ -28,3 +28,12 @@
   padding: 0.1rem auto;
   margin-bottom: 1.5rem;
 }
+
+@media (min-width: 768px) {
+  .hardSkills, .myProjects {
+    display: block;
+    margin: auto;
+    max-width: 1200px;
+    border-radius: 1rem;
+  }
+}

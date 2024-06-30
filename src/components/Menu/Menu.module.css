@@ -21,3 +21,20 @@
   }
 }
 
+@media (min-width: 768px) {
+  .main__divMenu {
+    border-bottom: none;
+    font-size: 1em;
+
+    .socialMedia {
+      display: flex;
+      align-items: center;
+      margin-left: 3rem;
+
+      li {       
+          margin-bottom: 0rem; 
+      }
+    }
+  }
+}
+

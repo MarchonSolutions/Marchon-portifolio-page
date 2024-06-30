@@ -16,9 +16,11 @@ export const Footer = () => {
             <FaPhoneAlt /> 21-96650-2119
           </li>
           <li>
-            <button className={`${styles.wpp__chat} button-gradient`}>
-              <a href="https://contate.me/matheus-marchon" target="blank">WhatsApp Chat</a>
-            </button>
+            <a href="https://contate.me/matheus-marchon" target="blank">
+              <button className={`${styles.wpp__chat} button-gradient`}>
+                WhatsApp Chat
+              </button>
+            </a>
           </li>
         </ul>
       </div>

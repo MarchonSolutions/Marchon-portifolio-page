@@ -11,3 +11,20 @@
       }
     }
   }
+
+@media (min-width: 768px) {
+  .divMenu {
+    display: flex;
+    li {
+      list-style: none;
+      margin: 1rem;
+      cursor: pointer;
+
+      a {
+        font-size: 1em;
+        text-decoration: none;
+        color: #bebebe;
+      }
+    }
+  }
+}

@@ -1,30 +1,37 @@
-import styles from './Swiper.module.css';
-import projects from '../../../../mocks/my-projects.json';
-import { EachProject } from '../../MyProjects/EachProject';
-import { Swiper,  SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
+import PropTypes from "prop-types";
+import { EachProjectMobile } from "../EachProjectMobile";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import { SeeMore } from "../../../SeeMore";
 
-export const SwiperComponent = () => {
-    return (
-        <Swiper 
-            modules={[Pagination]}
-            pagination={{clickable: true}}
-            className={styles.swiper__container} 
-        >
-            {projects.map((project, index) => (
-                <SwiperSlide key={index} className={styles.slide__item}>
-                    <EachProject 
-                        key={project.id}
-                        name={project.name}
-                        description={project.description}
-                        image={project.image}
-                        deployLink={project.deploy}
-                        repoLink={project.repositorio}
-                    />
-                </SwiperSlide>
-            ))}
-        </Swiper>
-    )
-}
+export const SwiperComponent = ({ projects }) => {
+  return (
+    <Swiper
+      modules={[Pagination]}
+      pagination={{ clickable: true }}
+      className="swiper__container"
+    >
+      {projects.map((project, index) => (
+        <SwiperSlide key={index}>
+          <EachProjectMobile
+            key={project.id}
+            name={project.name}
+            description={project.description}
+            image={project.image}
+            deployLink={project.deploy}
+            repoLink={project.repositorio}
+          />
+        </SwiperSlide>
+      ))}
+      <SwiperSlide>
+        <SeeMore />
+      </SwiperSlide>
+    </Swiper>
+  );
+};
+
+SwiperComponent.propTypes = {
+  projects: PropTypes.object.isRequired,
+};
