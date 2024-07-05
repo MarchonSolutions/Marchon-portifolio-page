@@ -2,7 +2,7 @@ import styles from "../Main.module.css";
 
 export const MyServices = () => {
   return (
-    <section className={styles.myServices}>
+    <section className={styles.myServices} id="my-services">
       <h2 className={styles.text__MyServices}>
         Oferecendo <span className="text-gradient">serviços</span> como...
       </h2>
