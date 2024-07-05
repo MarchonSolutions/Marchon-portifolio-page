@@ -3,9 +3,11 @@
 }
 
 .hardSkills,
-.myProjects {
+.myProjects,
+.myServices {
   .text__hardSkills,
-  .text__myProjects {
+  .text__myProjects,
+  .text__MyServices {
     font-size: 1.8em;
     padding: 1rem;
     color: #fff;
@@ -29,11 +31,60 @@
   margin-bottom: 1.5rem;
 }
 
+.myServices {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  max-width: 1200px;
+  padding: 2rem;
+  background-color: #1c1c22;
+  border-radius: 1rem;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .eachService {
+    display: grid;
+    padding: 0.7rem;
+    width: 18.7rem;
+    height: 15rem;
+    border: 1px solid #ffffff37;
+    border-radius: 1rem;
+    list-style: none;
+    color: #fff;
+    background-color: #161513;
+
+    h5 {
+      font-size: 1em;
+      font-weight: 600;
+    }
+
+    p {
+      text-align: justify;
+    }
+  }
+}
+
 @media (min-width: 768px) {
-  .hardSkills, .myProjects {
+  .hardSkills,
+  .myProjects {
     display: block;
     margin: auto;
+    border-radius: 0.3rem;
     max-width: 1200px;
-    border-radius: 1rem;
+  }
+
+  .hardSkills {
+    padding-bottom: 0.5rem;
+  }
+
+  .myProjects {
+    h2 {
+      margin: 1rem auto;
+    }
   }
 }

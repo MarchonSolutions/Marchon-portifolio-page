@@ -1,6 +1,6 @@
 import styles from "../Main.module.css";
 import tools from "../../../mocks/my-tools.json";
-import { EachTool } from "./EachTool";
+import { EachToolMobile } from "./EachToolMobile";
 
 export const MyTools = () => {
   return (
@@ -12,7 +12,7 @@ export const MyTools = () => {
       <hr />
       <ul>
         {tools.map((tool) => (
-          <EachTool key={tool.id} tool={tool} />
+          <EachToolMobile key={tool.id} tool={tool} />
         ))}
       </ul>
     </section>

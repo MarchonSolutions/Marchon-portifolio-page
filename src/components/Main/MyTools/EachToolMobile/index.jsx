@@ -1,9 +1,9 @@
-import styles from "./EachTool.module.css";
+import styles from "./EachToolMobile.module.css";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import PropTypes from "prop-types";
 import { useState } from "react";
 
-export const EachTool = ({ tool }) => {
+export const EachToolMobile = ({ tool }) => {
   const [openedTool, setOpenedTool] = useState(false);
   const [animation] = useState("slide-in-top");
   
@@ -26,6 +26,6 @@ export const EachTool = ({ tool }) => {
   );
 };
 
-EachTool.propTypes = {
+EachToolMobile.propTypes = {
   tool: PropTypes.object.isRequired,
 };

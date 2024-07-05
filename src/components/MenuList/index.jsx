@@ -5,7 +5,7 @@ export const MenuList = () => {
     { name: "Início", link: "#home" },
     { name: "Tecnologias", link: "#tools" },
     { name: "Projetos", link: "#projects" },
-    { name: "Projeções", link: "#about__me" },
+    { name: "Projeções", link: "#time__line" },
     { name: "Créditos", link: "#footer" },
   ];
 

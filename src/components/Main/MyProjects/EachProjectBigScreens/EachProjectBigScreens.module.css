@@ -6,8 +6,7 @@
     gap: 5rem;
 
     .project {
-        display: flex;
-        flex-direction: column;
+        display: grid;
         place-items: center;
         list-style: none;
         width: 18.7rem;
