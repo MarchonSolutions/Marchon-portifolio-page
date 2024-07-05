@@ -27,5 +27,5 @@ export const EachProjectBigScreens = ({ projects }) => {
 };
 
 EachProjectBigScreens.propTypes = {
-  projects: PropTypes.object.isRequired
+  projects: PropTypes.array.isRequired
 }
