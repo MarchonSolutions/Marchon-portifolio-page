@@ -2,7 +2,7 @@ import styles from "./MenuList.module.css";
 
 export const MenuList = () => {
   const linksMenu = [
-    { name: "Início", link: "#home" },
+    { name: "Inicio", link: "#home" },
     { name: "Tecnologias", link: "#tools" },
     { name: "Projetos", link: "#projects" },
     { name: "Serviços", link: "#my-services" },
