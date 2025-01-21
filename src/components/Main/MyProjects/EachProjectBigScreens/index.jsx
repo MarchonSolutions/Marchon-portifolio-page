@@ -13,10 +13,11 @@ export const EachProjectBigScreens = ({ projects }) => {
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <ButtonsArea
-              btn1="Deploy"
+              btn1="Ver Site"
               btn2="Repositório"
               href1={project.deploy}
               href2={project.repositorio}
+              personal={project.repositorio ? true : false}
             />
           </footer>
         </li>

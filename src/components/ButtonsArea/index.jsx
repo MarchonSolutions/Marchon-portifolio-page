@@ -1,15 +1,15 @@
 import styles from "./ButtonsArea.module.css";
 import PropTypes from "prop-types";
 
-export const ButtonsArea = ({ btn1, btn2, href1, href2 }) => {
+export const ButtonsArea = ({ btn1, btn2, href1, href2, personal = false }) => {
   return (
     <div className={styles.buttons__Area}>
       <a href={href1} target="blank">
         <button className={`${styles.btn1} button-gradient`}>{btn1}</button>
       </a>
-      <a href={href2} target="blank">
+      {personal && <a href={href2} target="blank">
         <button className={`${styles.btn2} button-transparent`}>{btn2}</button>
-      </a>
+      </a>}
     </div>
   );
 };

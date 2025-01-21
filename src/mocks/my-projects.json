@@ -9,11 +9,11 @@
   },
   {
     "id": 2,
-    "name": "Validação de Formulario",
-    "description": "Este é um projeto 100% pessoal que foi feito utilizando classes com JavaScript, onde os dados fornecidos ao formulário precisam cumprir determinados requisitos para serem enviados.",
-    "image": "/images/logo-projects/form-validation.png",
-    "deploy": "https://marchon1702.github.io/validando-formulario/",
-    "repositorio": "https://github.com/Marchon1702/validando-formulario"
+    "name": "Canil Amalfi",
+    "description": "Site desenvolvido para uma Canil especializado na raça beagle, ele possui seções como galeria, blog e lista de espera para cadastro de clientes.",
+    "image": "/images/logo-projects/canil-amalfi-logo.webp",
+    "deploy": "https://amalfi-canil.vercel.app/",
+    "repositorio": ""
   },
   {
     "id": 3,

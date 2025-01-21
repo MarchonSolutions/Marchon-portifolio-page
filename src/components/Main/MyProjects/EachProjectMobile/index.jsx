@@ -10,10 +10,11 @@ export const EachProjectMobile = ({ image, description, name, deployLink, repoLi
         <h3>{name}</h3>
         <p>{description}</p>
         <ButtonsArea
-          btn1="Deploy"
+          btn1="Ver Site"
           btn2="Repositório"
           href1={deployLink}
           href2={repoLink}
+          personal={repoLink ? true : false}
         />
       </div>
     </div>
