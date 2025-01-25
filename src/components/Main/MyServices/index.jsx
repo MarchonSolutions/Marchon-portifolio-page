@@ -24,7 +24,7 @@ export const MyServices = () => {
           </h3>
           <h5>Precisa de um site com features interativas?</h5>
           <p>
-            amos desenvolver o seu site com diversas funcionalidades voltadas
+            Vamos desenvolver o seu site com diversas funcionalidades voltadas
             para suas necessidades, adicionando uma interface intuitiva e
             amigável para seus clientes.
           </p>
