@@ -17,16 +17,16 @@
   },
   {
     "id": 3,
-    "name": "Organo Soccer",
-    "description": "Projeto baseado no Organo da Alura, com modificações pessoais. Esta aplicação permite escalar times de futebol, onde você assume o papel de presidente do clube.",
-    "image": "/images/logo-projects/organo-soccer-logo.png",
-    "deploy": "https://organo-soccer.vercel.app/",
-    "repositorio": "https://github.com/Marchon1702/organo-soccer"
+    "name": "Fision Confort",
+    "description": "Site desenvolvido para uma exportadora de aparelhos de massagem...",
+    "image": "/images/logo-projects/fision-confort-logo-projects.png",
+    "deploy": "https://oficial-website-fision-confort.vercel.app/",
+    "repositorio": ""
   },
   {
     "id": 4,
     "name": "BarberShop Manager",
-    "description": "Este é um projeto autoral desenvolvido para um barbeiro, visando organizar a ordem de atendimento dos clientes e controlar a renda diária. O código foi escrito no início dos meus estudos em React e precisa de refatoração.",
+    "description": "Aplicação desenvolvida para uma barbearia, visando organizar a ordem de atendimento dos clientes e controlar a renda diária.",
     "image": "/images/logo-projects/barber-shop-logo-portif.png",
     "deploy": "https://barber-shop-manager-mu.vercel.app/",
     "repositorio": "https://github.com/MarchonSolutions/BarberShop-Manager"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "E-commerce Meteora",
-    "description": "Este é um projeto feito no curso de Context-Api da Alura, uma loja virtual de roupas com carrinho de compras e gerenciamento de pedidos.",
+    "description": "Este é um site exemplo, uma loja virtual de roupas com carrinho de compras e gerenciamento de pedidos.",
     "image": "/images/logo-projects/meteora-logo.png",
     "deploy": "https://meteora-lovat-sigma.vercel.app/",
     "repositorio": "https://github.com/MarchonSolutions/meteora"
