@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Agência de Viagens",
-    "description": "Projeto feito através de um layout fornecido pela DevMedia, visando praticar técnicas de responsividade em diferentes tamanhos de tela.",
+    "description": "Template de exemplo para demonstrar a criação de uma agência de viagens.",
     "image": "/images/logo-projects/agencia-de-viagens-logo.png",
     "deploy": "https://marchon1702.github.io/Agencia-de-viagens/",
     "repositorio": "https://github.com/Marchon1702/Agencia-de-viagens"
