@@ -5,8 +5,8 @@
 .content h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); line-height: 1.3; overflow-wrap: anywhere; }
 .description { flex: 1; margin-top: .8rem; font-size: 1rem; line-height: 1.6; color: #bebebe; overflow-wrap: anywhere; }
 .status { margin-bottom: .75rem; padding: .3rem .7rem; border: 1px solid #b16cea70; border-radius: 2rem; color: #fff; font-size: .875rem; line-height: 1.4; }
-.actions { display: flex; flex-wrap: wrap; gap: .65rem; width: 100%; margin-top: 1.5rem; }
-.actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .65rem 1.1rem; border: 1px solid transparent; border-radius: 2rem; font-size: 1rem; line-height: 1.4; text-decoration: none; color: #fff; transition: background 200ms ease, border-color 200ms ease, color 200ms ease; }
+.actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .65rem; width: 100%; margin-top: 1.5rem; }
+.actions a { display: inline-flex; flex: 1 1 7rem; align-items: center; justify-content: center; max-width: 14rem; min-height: 48px; padding: .8rem 1.2rem; border: 1px solid transparent; border-radius: 2rem; font-size: 1rem; font-weight: 600; line-height: 1.4; text-decoration: none; color: #fff; transition: background 200ms ease, border-color 200ms ease, color 200ms ease; }
 .primary { background: linear-gradient(45deg, #b16cea, #c469ca, #ff6567, #ff8d55); text-shadow: 1px 1px 5px #000000c2; }
 .actions .secondary { border-color: #ffffff70; background: transparent; }
 .actions a:focus-visible { outline: 2px solid #b16cea; outline-offset: 4px; }
