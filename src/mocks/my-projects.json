@@ -1,11 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Agência de Viagens",
-    "description": "Template de exemplo para demonstrar a criação de uma agência de viagens.",
-    "image": "/images/logo-projects/agencia-de-viagens-logo.png",
-    "deploy": "https://marchon1702.github.io/Agencia-de-viagens/",
-    "repositorio": "https://github.com/Marchon1702/Agencia-de-viagens"
+    "name": "PatotaFUT",
+    "description": "Aplicação desenvolvida como trabalho final da minha faculdade para atender às necessidades de um grupo real de pessoas que se reúne para jogar futebol.",
+    "image": "/images/logo-projects/patotafut-logo.png",
+    "alt": "Logo do PatotaFUT",
+    "deploy": "https://patota-fut-bice.vercel.app/",
+    "repositorio": ""
   },
   {
     "id": 2,
@@ -33,11 +34,13 @@
   },
   {
     "id": 5,
-    "name": "E-commerce Meteora",
-    "description": "Este é um site exemplo, uma loja virtual de roupas com carrinho de compras e gerenciamento de pedidos.",
-    "image": "/images/logo-projects/meteora-logo.png",
-    "deploy": "https://meteora-lovat-sigma.vercel.app/",
-    "repositorio": "https://github.com/MarchonSolutions/meteora"
+    "name": "PegaSenha Barbershop",
+    "status": "Em pausa · funcionalidades pendentes",
+    "description": "Projeto em pausa, com funcionalidades ainda pendentes. Evolução do BarberShop Manager, permite que os clientes entrem na fila da barbearia remotamente e acompanhem de casa sua posição e o status do atendimento.",
+    "image": "/images/logo-projects/pega-senha-barbershop-logo.png",
+    "alt": "Logo do PegaSenha Barbershop",
+    "deploy": "https://pega-senha-barbershop.vercel.app/",
+    "repositorio": ""
     
   }
 ]

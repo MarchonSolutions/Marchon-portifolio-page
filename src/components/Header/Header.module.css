@@ -29,3 +29,46 @@
 }
 
 
+
+.mobileMenu {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: grid-template-rows 320ms cubic-bezier(.22, 1, .36, 1), opacity 220ms ease, visibility 0s 320ms;
+}
+.mobileMenuOpen {
+  grid-template-rows: 1fr;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: grid-template-rows 320ms cubic-bezier(.22, 1, .36, 1), opacity 260ms ease, visibility 0s;
+}
+.mobileMenuInner { min-height: 0; overflow: hidden; }
+.header .menuToggle {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin-top: 0;
+  border: 0;
+  border-radius: .6rem;
+  background: transparent;
+  color: #fff;
+}
+.menuToggle:focus-visible { outline: 2px solid #b16cea; outline-offset: 2px; }
+.menuGlyph, .closeGlyph {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  transition: opacity 220ms ease, transform 320ms cubic-bezier(.22, 1, .36, 1);
+}
+.menuGlyph { opacity: 1; transform: rotate(0) scale(1); }
+.closeGlyph { opacity: 0; transform: rotate(-45deg) scale(.8); }
+.menuToggleOpen .menuGlyph { opacity: 0; transform: rotate(45deg) scale(.8); }
+.menuToggleOpen .closeGlyph { opacity: 1; transform: rotate(0) scale(1); }
+@media (prefers-reduced-motion: reduce) {
+  .mobileMenu, .mobileMenuOpen, .menuGlyph, .closeGlyph { transition: none; }
+}

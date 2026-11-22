@@ -1,0 +1,16 @@
+.carousel { min-width: 0; max-width: 520px; margin: 0 auto; }
+.slider { width: 100%; }
+.slider :global(.swiper-wrapper) { align-items: stretch; }
+.slider .slide { display: flex; height: auto; box-sizing: border-box; }
+.controls { margin-top: 1.25rem; }
+.controlRow { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: .75rem; }
+.controlRow button { min-height: 44px; padding: .6rem .75rem; border: 1px solid #ffffff50; border-radius: 2rem; background: #1c1c22; color: #fff; font-size: 1rem; }
+.controlRow button:disabled { opacity: .4; cursor: default; }
+.counter { font-size: .875rem; color: #bebebe; white-space: nowrap; }
+.pagination { display: flex; justify-content: center; margin-top: .5rem; }
+.dot { display: grid; place-items: center; width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; }
+.dot::after { content: ""; display: block; width: 7px; height: 7px; border-radius: 1rem; background: #bebebe; opacity: .5; transition: width 200ms ease, opacity 200ms ease; }
+.dot[aria-current="true"]::after { width: 22px; background: linear-gradient(45deg, #b16cea, #c469ca, #ff6567, #ff8d55); opacity: 1; }
+.controls button:focus-visible { outline: 2px solid #b16cea; outline-offset: 2px; }
+@media (hover: hover) and (pointer: fine) { .controlRow button:not(:disabled):hover { border-color: #b16cea; } }
+@media (prefers-reduced-motion: reduce) { .dot::after { transition: none; } }

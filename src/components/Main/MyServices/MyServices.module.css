@@ -1,0 +1,23 @@
+.section { max-width: 1200px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid #ffffff12; border-radius: 1.5rem; background: #1c1c22; color: #fff; scroll-margin-top: 1.5rem; }
+.heading { max-width: 44rem; margin-bottom: 2rem; }
+.eyebrow { margin-bottom: .75rem; color: #bebebe; font-size: .875rem; letter-spacing: .08em; text-transform: uppercase; }
+.heading h2 { font-size: clamp(1.65rem, 3vw, 2.25rem); line-height: 1.2; text-wrap: balance; }
+.intro { margin-top: 1rem; color: #bebebe; font-size: 1rem; line-height: 1.6; }
+.fullStack { padding: clamp(1.1rem, 3vw, 2rem); border: 1px solid #b16cea70; border-radius: 1.25rem; background: #161513; }
+.featureHeading { display: flex; align-items: flex-start; flex-wrap: wrap; gap: 1rem; }
+.featureHeading > div { flex: 1 1 16rem; min-width: 0; }
+.featureHeading h3 { max-width: 40rem; font-size: clamp(1.25rem, 2vw, 1.6rem); line-height: 1.35; }
+.featureHeading p { max-width: 45rem; margin-top: .75rem; color: #bebebe; font-size: 1rem; line-height: 1.6; }
+.icon { display: grid; place-items: center; flex-shrink: 0; width: 3rem; height: 3rem; border-radius: .8rem; background: #1c1c22; color: #b16cea; }
+.icon svg { width: 1.5rem; height: 1.5rem; }
+.stages { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.5rem; margin-top: 1.75rem; padding-top: 1.75rem; border-top: 1px solid #ffffff24; }
+.stage { min-width: 0; }
+.stageIcon { width: 1.5rem; height: 1.5rem; margin-bottom: .75rem; color: #b16cea; }
+.stage h4 { font-size: 1rem; line-height: 1.5; }
+.stage p, .service p { margin-top: .65rem; color: #bebebe; font-size: 1rem; line-height: 1.6; overflow-wrap: anywhere; }
+.services { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1rem; margin-top: 1rem; }
+.service { min-width: 0; padding: clamp(1.1rem, 3vw, 1.5rem); border: 1px solid #ffffff24; border-radius: 1rem; background: #161513; }
+.service .icon { margin-bottom: 1rem; }
+.service h3 { font-size: 1.2rem; line-height: 1.4; }
+@media (min-width: 600px) { .stages, .services { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .stages { grid-template-columns: repeat(4, minmax(0, 1fr)); } }

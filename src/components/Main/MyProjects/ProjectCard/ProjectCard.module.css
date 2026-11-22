@@ -1,0 +1,20 @@
+.card { display: flex; flex-direction: column; width: 100%; height: 100%; min-width: 0; overflow: hidden; border: 1px solid #ffffff24; border-radius: 1.25rem; background: #1c1c22; color: #fff; transition: border-color 220ms ease, box-shadow 220ms ease; }
+.media { display: grid; place-items: center; flex-shrink: 0; height: clamp(190px, 35vw, 250px); padding: 1.5rem; background: #161513; border-bottom: 1px solid #ffffff12; }
+.media img { display: block; width: 100%; height: 100%; max-width: 240px; max-height: 100%; object-fit: contain; min-height: 0; }
+.content { display: flex; flex-direction: column; align-items: flex-start; flex: 1; padding: clamp(1.1rem, 2vw, 1.5rem); }
+.content h3 { font-size: clamp(1.2rem, 2vw, 1.5rem); line-height: 1.3; overflow-wrap: anywhere; }
+.description { flex: 1; margin-top: .8rem; font-size: 1rem; line-height: 1.6; color: #bebebe; overflow-wrap: anywhere; }
+.status { margin-bottom: .75rem; padding: .3rem .7rem; border: 1px solid #b16cea70; border-radius: 2rem; color: #fff; font-size: .875rem; line-height: 1.4; }
+.actions { display: flex; flex-wrap: wrap; gap: .65rem; width: 100%; margin-top: 1.5rem; }
+.actions a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: .65rem 1.1rem; border: 1px solid transparent; border-radius: 2rem; font-size: 1rem; line-height: 1.4; text-decoration: none; color: #fff; transition: background 200ms ease, border-color 200ms ease, color 200ms ease; }
+.primary { background: linear-gradient(45deg, #b16cea, #c469ca, #ff6567, #ff8d55); text-shadow: 1px 1px 5px #000000c2; }
+.actions .secondary { border-color: #ffffff70; background: transparent; }
+.actions a:focus-visible { outline: 2px solid #b16cea; outline-offset: 4px; }
+.card:focus-within { border-color: #b16cea; }
+@media (hover: hover) and (pointer: fine) {
+  .card:hover { border-color: #b16cea70; box-shadow: 0 12px 24px #00000026; }
+  .primary:hover { color: #161513; background: #fff; text-shadow: none; }
+  .secondary:hover { background: #161513; border-color: #b16cea; }
+}
+@media (min-width: 1100px) { .media { height: 230px; } }
+@media (prefers-reduced-motion: reduce) { .card, .actions a { transition: none; } }

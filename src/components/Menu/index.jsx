@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 export const Menu = () => {
   return (
-    <div className={`${styles.main__divMenu} slide-in-top`}>
+    <div className={styles.main__divMenu}>
       <MenuList />
       <ul className={styles.socialMedia}>
         <li>
